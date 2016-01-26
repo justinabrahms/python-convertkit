@@ -83,6 +83,4 @@ if __name__ == '__main__':
 
     ck = ConvertKit(key)
     forms = ck.forms.list()
-    test = [x for x in forms if x.id == 20021][0]   # Get Test Form
-    import pdb; pdb.set_trace()
-    
+    pprint([(x.id, x.name) for x in forms])
