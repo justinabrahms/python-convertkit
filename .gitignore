@@ -1,0 +1,3 @@
+dist/
+convertkit.egg-info
+*.pyc
